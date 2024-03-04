@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>E_CommerceAutomation_SpecFlow</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+    <IsTestProject>true</IsTestProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.3\contentFiles\any\net7.0\testhost.dll" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.3\contentFiles\any\net7.0\testhost.exe" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.6\contentFiles\any\net7.0\testhost.dll" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.0.6\contentFiles\any\net7.0\testhost.exe" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.1.1\contentFiles\any\net7.0\testhost.dll" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\coreautomation\1.1.1\contentFiles\any\net7.0\testhost.exe" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\microsoft.testplatform.testhost\17.7.1\build\netcoreapp3.1\x64\testhost.dll" />
+    <Content Remove="C:\Users\LinaAZOUZI\.nuget\packages\microsoft.testplatform.testhost\17.7.1\build\netcoreapp3.1\x64\testhost.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CoreAutomation" Version="1.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.7.1" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+    <PackageReference Include="coverlet.collector" Version="3.2.0" />
+    <PackageReference Include="SpecFlow.NUnit" Version="3.9.74" />
+    <PackageReference Include="SpecFlow.Plus.LivingDocPlugin" Version="3.9.57" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Data\Login.xlsx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
