@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="                                                              Test Implementation Layer">
+    <Position X="1.745" Y="0.522" Height="0.35" Width="6.085" />
+  </Comment>
+  <Comment CommentText="                                                        Test Abstraction Layer">
+    <Position X="8.409" Y="0.533" Height="0.35" Width="5.224" />
+  </Comment>
+  <Comment CommentText="                                                              Test Execution Layer">
+    <Position X="1.883" Y="6.817" Height="0.35" Width="6.085" />
+  </Comment>
+  <Class Name="ECommerceAutomation.Page.LoginPage" BaseTypeListCollapsed="true">
+    <Position X="6.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAA4AQAIAgACEAAAIAAAAAAAAACAgAgAAgAAA=</HashCode>
+      <FileName>Page\Implementation\LoginPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Verification.LoginVerification">
+    <Position X="4" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAEAAAAAAAAAAAAAAAQAAgBAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verification\Implementation\LoginVerification.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Action.LoginAction">
+    <Position X="1.75" Y="1.75" Width="1.75" />
+    <InheritanceLine Type="ECommerceAutomation.Hooks.BddBase" ManuallyRouted="true">
+      <Path>
+        <Point X="11.25" Y="7" />
+        <Point X="11.25" Y="6.552" />
+        <Point X="3.823" Y="6.552" />
+        <Point X="3.823" Y="3.169" />
+        <Point X="3.5" Y="3.169" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAgAAAAAAAAAAAAAAAQAAABAAAAgAAIAAAAA=</HashCode>
+      <FileName>Action\Implementation\LoginAction.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ECommerceAutomation.Data.LoginData" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAA=</HashCode>
+      <FileName>Data\Implementation\LoginData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoreAutomation.Test.BaseTest">
+    <Position X="10.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="CoreAutomation.Page.BasePage">
+    <Position X="8.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="ECommerceAutomation.Hooks.BddBase">
+    <Position X="10.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAACAAAAAQ=</HashCode>
+      <FileName>Hooks\BddBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECommerceAutomation.Hooks.hooks">
+    <Position X="2.5" Y="7.5" Width="2" />
+    <InheritanceLine Type="ECommerceAutomation.Hooks.BddBase" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="7" />
+        <Point X="11.25" Y="6.552" />
+        <Point X="1.75" Y="6.552" />
+        <Point X="1.75" Y="8.438" />
+        <Point X="2.5" Y="8.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AgBAAAAAAAAAAAAAAAAAAAAAAABAAIAAgAAAAAAAAAA=</HashCode>
+      <FileName>Hooks\Hooks.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ECommerceAutomation.StepDefinitions.LoginStepDefinitions">
+    <Position X="4.75" Y="7.5" Width="3" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAhAAABAAQAAAEAAAAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>StepDefinitions\LoginStepDefinitions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ECommerceAutomation.Data.Abstraction.ILoginData" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAAAAAAAAAAAAAAAAAAACAAAAAAAEAAA=</HashCode>
+      <FileName>Data\Abstraction\ILoginData.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Action.Abstraction.ILoginAction" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAgAAIAAAAA=</HashCode>
+      <FileName>Action\Abstraction\ILoginAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Verification.Abstraction.ILoginVerification" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Verification\Abstraction\ILoginVerification.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ECommerceAutomation.Page.Abstraction.ILoginPage" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAoAQAAAAACAAAAAAAAAAAAAAAAgAgAAAAAA=</HashCode>
+      <FileName>Page\Abstraction\ILoginPage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
