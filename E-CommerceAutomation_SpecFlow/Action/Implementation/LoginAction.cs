@@ -8,7 +8,7 @@ using ECommerceAutomation.Hooks;
 
 namespace ECommerceAutomation.Action
 {
-    public class LoginAction: BddBase, ILoginAction
+    public class LoginAction: ECommerceBddBase, ILoginAction
     {
         public IDictionary<string, string> Data = null;
         private readonly ILoginData LoginData;

@@ -27,15 +27,6 @@
   </Class>
   <Class Name="ECommerceAutomation.Action.LoginAction">
     <Position X="1.75" Y="1.75" Width="1.75" />
-    <InheritanceLine Type="ECommerceAutomation.Hooks.BddBase" ManuallyRouted="true">
-      <Path>
-        <Point X="11.25" Y="7" />
-        <Point X="11.25" Y="6.552" />
-        <Point X="3.823" Y="6.552" />
-        <Point X="3.823" Y="3.169" />
-        <Point X="3.5" Y="3.169" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AAQAAACAAgAAAAAAAAAAAAAAAQAAABAAAAgAAIAAAAA=</HashCode>
       <FileName>Action\Implementation\LoginAction.cs</FileName>
@@ -58,24 +49,15 @@
     <Position X="8.5" Y="1.25" Width="1.5" />
     <TypeIdentifier />
   </Class>
-  <Class Name="ECommerceAutomation.Hooks.BddBase">
+  <Class Name="ECommerceAutomation.Hooks.ECommerceBddBase">
     <Position X="10.5" Y="7" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAACAAAAAQ=</HashCode>
-      <FileName>Hooks\BddBase.cs</FileName>
+      <HashCode>AAAAAAAAAAAAgAABBAgAAAAAAAACAAAAAAAADAAAAAQ=</HashCode>
+      <FileName>Hooks\ECommerceBddBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ECommerceAutomation.Hooks.hooks">
     <Position X="2.5" Y="7.5" Width="2" />
-    <InheritanceLine Type="ECommerceAutomation.Hooks.BddBase" ManuallyRouted="true" FixedToPoint="true">
-      <Path>
-        <Point X="11.25" Y="7" />
-        <Point X="11.25" Y="6.552" />
-        <Point X="1.75" Y="6.552" />
-        <Point X="1.75" Y="8.438" />
-        <Point X="2.5" Y="8.438" />
-      </Path>
-    </InheritanceLine>
     <TypeIdentifier>
       <HashCode>AgBAAAAAAAAAAAAAAAAAAAAAAABAAIAAgAAAAAAAAAA=</HashCode>
       <FileName>Hooks\Hooks.cs</FileName>
@@ -87,7 +69,7 @@
       <Compartment Name="Fields" Collapsed="true" />
     </Compartments>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAhAAABAAQAAAEAAAAAAAAAAAABAAAQAA=</HashCode>
+      <HashCode>AAAAAAAAAAAABAAAAAAQAAAEAAAAAAAAAAAAAAAAQAA=</HashCode>
       <FileName>StepDefinitions\LoginStepDefinitions.cs</FileName>
     </TypeIdentifier>
   </Class>

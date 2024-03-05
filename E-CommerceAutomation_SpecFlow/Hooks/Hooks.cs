@@ -8,7 +8,7 @@ using TechTalk.SpecFlow;
 namespace ECommerceAutomation.Hooks
 {
     [Binding]
-    public sealed class hooks: BddBase
+    public sealed class hooks: ECommerceBddBase
     {
         [BeforeTestRun]
         public static void BeforeTestRun()

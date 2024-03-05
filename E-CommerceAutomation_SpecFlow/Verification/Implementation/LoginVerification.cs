@@ -5,12 +5,11 @@ using ECommerceAutomation.Page;
 using ECommerceAutomation.Data.Abstraction;
 using ECommerceAutomation.Verification.Abstraction;
 using System.Reflection;
-using CoreAutomation.Test;
 using ECommerceAutomation.Hooks;
 
 namespace ECommerceAutomation.Verification
 {
-    public class LoginVerification : BddBase, ILoginVerification
+    public class LoginVerification : ECommerceBddBase, ILoginVerification
     {
         public IDictionary<string, string> Data = null;
         private readonly ILoginData LoginData;
