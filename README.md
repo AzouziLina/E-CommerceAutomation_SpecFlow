@@ -7,5 +7,3 @@ This project is similar to the ECommerceAutomation project, except that this tim
 * [SpecFlow](https://specflow.org/)
 ## Useful links
 [KOUKA, We are software crafts(wo)men! - Blog KOUKA](https://kouka.io/blog)
-
-[Reqnroll](https://reqnroll.net/)
